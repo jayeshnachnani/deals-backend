@@ -20,6 +20,21 @@ data class FixedIncomeDeals (
         @Column(name = "interestRate")
         var interestRate: Long = -1,
 
+        @Column(name = "tenor")
+        var tenor: Long = -1,
+
+        @Column(name = "totalAmount")
+        var totalAmount: Long = -1,
+
+        @Column(name = "totalTranches")
+        var totalTranches: Long = -1,
+
+        @Column(name = "remainingTranches")
+        var remainingTranches: Long = -1,
+
+        @Column(name = "rating")
+        var rating: Long = -1,
+
 ){  }
 
 
